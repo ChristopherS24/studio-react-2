@@ -1,1 +1,1 @@
-# studio-react-2
+Studio generale di React e delle sue funzionalità (con uso di Tailwind)

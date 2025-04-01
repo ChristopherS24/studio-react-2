@@ -1,0 +1,18 @@
+ul li {
+    color: crimson;
+}
+
+.box {
+    height: 250px;
+    width: 250px;
+    background-color: crimson;
+}
+
+.rounded {
+    border-radius: 35px;
+}
+
+.rotated {
+    rotate: 25deg;
+    background-color: white;
+}
