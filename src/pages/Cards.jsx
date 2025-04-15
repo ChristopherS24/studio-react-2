@@ -15,12 +15,12 @@ function Cards() {
             <div className="grid grid-cols-4 gap-5"> 
                 {cities.map((city) => (
                     <Link to={`/cards/${city.id}`} key={city.id}>
-                        {/* <CardItem
+                        <CardItem
                             title={city.name}
                             isVisited={city.isVisited}
                             imgURL={city.imgURL}>
-                                {city.description}
-                        </CardItem> */}
+                            {city.description}
+                        </CardItem>
                     </Link>
                 ))}
             </div>

@@ -10,7 +10,6 @@ function Card() {
     const cities = useSelector((state) =>
         state.cities.value.filter((city) => city.id == cardID.toString())
     );
-
     console.log(cities);
 
     return (

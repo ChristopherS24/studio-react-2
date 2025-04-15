@@ -1,30 +1,26 @@
-import Link from './Link';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
 
     return (
-        <>
-
-        <div className='flex justify-center'>
-            <ul className='flex gap-10 mb-10'>
-                <li>
-                    <Link>Hola</Link>
-                </li>
-                <li>
-                    <Link>Chi siamo</Link>
-                </li>
-                <li>
-                    <Link>Contatti</Link>
-                </li>
-                <li>
-                    <Link>Dove trovarci</Link>
-                </li>
-            </ul>
-        </div>
-
-        </>
+        <ul className="flex gap-10 mb-10">
+            <li>
+                <Link to={`/`}>Home</Link>
+            </li>
+            <li>
+                <Link to={`/contatti`}>Contatti</Link>
+            </li>
+            <li>
+                <Link to={`/about`}>About</Link>
+            </li>
+            <li>
+                <Link to={`/cards`}>Cards</Link>
+            </li>
+            <li>
+                <Link to={`/cards-children`}>Cards 2</Link>
+            </li>
+        </ul>
     );
 }
 
