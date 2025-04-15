@@ -1,13 +1,12 @@
 import { useState, useContext } from "react";
+
 import { ProvaContext } from "../stores/ProvaContext";
 
 import { useDispatch } from "react-redux";
 import { add } from "../redux/citiesSlice"; 
 
 function CardForm({ addCity }) {
-    
 const dispatch = useDispatch();
-
 const [formData, setformData] = useState({
     name: "",
     description: "",
