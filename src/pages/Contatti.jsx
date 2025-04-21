@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar";
+import useCounterProva from "../hooks/useCounter";
 
 function Contatti(){
+    useCounterProva;
+    
     return (
         <>
             <Navbar></Navbar>
